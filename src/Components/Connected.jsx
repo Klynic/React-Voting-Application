@@ -63,8 +63,8 @@ const Connected = (props) => {
                                 </div>
 
                                 <div className="px-5 py-5 flex items-center">
-                                    <h2 className="text-white text-lg">Netumbo Nandi-Ndaitwah</h2>
-                                    <p className="ml-auto text-white">(SWAPO)</p>
+                                    <h2 className="text-white text-lg">Panduleni Itula</h2>
+                                    <p className="ml-auto text-white">(IPC)</p>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +76,8 @@ const Connected = (props) => {
                                 </div>
 
                                 <div className="px-5 py-5 flex items-center">
-                                    <h2 className="text-white text-lg">Panduleni Itula</h2>
-                                    <p className="ml-auto text-white">(IPC)</p>
+                                    <h2 className="text-white text-lg">McHenry Venaani</h2>
+                                    <p className="ml-auto text-white">(PDM)</p>
                                 </div>
                             </div>
                         </div>
@@ -89,8 +89,8 @@ const Connected = (props) => {
                                 </div>
 
                                 <div className="px-5 py-5 flex items-center">
-                                    <h2 className="text-white text-lg">McHenry Venaani</h2>
-                                    <p className="ml-auto text-white">(PDM)</p>
+                                    <h2 className="text-white text-lg">Netumbo Nandi-Ndaitwah</h2>
+                                    <p className="ml-auto text-white">(SWAPO)</p>
                                 </div>
                             </div>
                         </div>
