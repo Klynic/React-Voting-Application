@@ -14,6 +14,9 @@ contract Voting {
     uint256 public votingStart;
     uint256 public votingEnd;
 
+    // Declare event to emit vote details
+    event VoteCasted(address indexed voter, string candidateName);
+
 constructor(string[] memory _candidateNames, uint256 _durationInMinutes) {
     for (uint256 i = 0; i < _candidateNames.length; i++) {
         candidates.push(Candidate({
@@ -44,6 +47,9 @@ constructor(string[] memory _candidateNames, uint256 _durationInMinutes) {
 
         candidates[_candidateIndex].voteCount++;
         voters[msg.sender] = true;
+
+         // Emit event with voter's address and candidate's name
+        emit VoteCasted(msg.sender, candidates[_candidateIndex].name);
     }
 
     function getAllVotesOfCandiates() public view returns (Candidate[] memory){
