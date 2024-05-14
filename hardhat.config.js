@@ -12,11 +12,11 @@ module.exports = {
    networks : {
      amoy : {
        url : "https://rpc-amoy.polygon.technology",
-       accounts : ["e43aaf27ceca775696df63f33bd3113f5c5c338f5a6977e40b0346f6f60aee16"]
+       accounts : ["7dd13974f71cae062e7df7c572ec3a8edd438d662fb35e8c50a22b5f255291c7"]
      },
    },
    etherscan: {
-     apiKey : "BFG3AYIWMNNX3EZC6TRA2VMB8YAFSWV3Z9",
+     apiKey : "W9MY8C3XPI5SGNXC1JR3K7NEKM34VJGERD",
    },
  };
  

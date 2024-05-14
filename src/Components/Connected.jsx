@@ -150,7 +150,7 @@ const Connected = (props) => {
                                     <div>
                                         <form action="" className="pt-10" onSubmit={props.voteFunction}>
                                             <input type="number" 
-                                                placeholder="Entern Candidate Index" value={props.number} 
+                                                placeholder="Enter Candidate Index" value={props.number} 
                                                 onChange={props.handleNumberChange}
                                                 required 
                                                 className="input input-bordered w-full" 
