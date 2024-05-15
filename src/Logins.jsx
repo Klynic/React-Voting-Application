@@ -4,16 +4,16 @@ import logo from './Components/images/ECN_logo-1.png';
 
 const Logins = () => {
   const AllowedUsers = [
-    'Randomid-1',
-    'Randomid-2',
-    'Randomid-3',
-    'Randomid-4',
-    'Randomid-5',
-    'Randomid-6',
-    'Randomid-7',
-    'Randomid-8',
-    'Randomid-9',
-    'Randomid-10',
+    'Randomid-1a',
+    'Randomid-2b',
+    'Randomid-3c',
+    'Randomid-4e',
+    'Randomid-5a',
+    'Randomid-6y',
+    'Randomid-7i',
+    'Randomid-8o',
+    'Randomid-9w',
+    'Randomid-10e',
   ];
 
   const [username, setUsername] = useState('');
